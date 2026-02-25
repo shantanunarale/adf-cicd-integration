@@ -1,0 +1,9 @@
+{
+	"name": "adf-dblearner-dev-centralindia-001",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a5a10109-679f-41d4-9604-f893e934eb11",
+		"tenantId": "a6a4cf1f-415b-47d1-ae17-49df4328dae1"
+	}
+}
