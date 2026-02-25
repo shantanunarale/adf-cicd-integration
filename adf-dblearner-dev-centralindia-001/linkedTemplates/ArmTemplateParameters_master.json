@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-dblearner-dev-centralindia-001"
+		},
+		"Azure_Sql_Db_password": {
+			"value": ""
+		},
+		"Azure_Sql_Db_properties_typeProperties_server": {
+			"value": "sql-dblearner-cmn-centralindia-001.database.windows.net"
+		},
+		"Azure_Sql_Db_properties_typeProperties_database": {
+			"value": "sqldb-dblearner-cmn-centralindia-001"
+		},
+		"Azure_Sql_Db_properties_typeProperties_userName": {
+			"value": "shantanunarale"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
