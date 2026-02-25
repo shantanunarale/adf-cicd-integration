@@ -1,0 +1,32 @@
+{
+	"name": "Test_Pipe1",
+	"properties": {
+		"activities": [
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "b",
+					"value": 1
+				}
+			}
+		],
+		"variables": {
+			"b": {
+				"type": "Integer"
+			}
+		},
+		"folder": {
+			"name": "Base"
+		},
+		"annotations": [],
+		"lastPublishTime": "2026-02-25T09:30:16Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
